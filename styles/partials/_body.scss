@@ -15,6 +15,12 @@ body{
     grid-template-rows: 14vh auto auto auto 18vh;
 }
 
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 14vh auto auto auto 18vh;
+}
+
 @media only screen and (min-width:1200px){
     
     body{
@@ -28,6 +34,12 @@ body{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 18vh auto auto auto 18vh;
     }
-    
+
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 18vh auto auto auto 18vh;
 }
+}
+
 

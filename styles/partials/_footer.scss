@@ -3,17 +3,81 @@ footer{
     grid-column: 1 / 4;
     display: flex;
     width: 100vw;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
-    li{
+
+    li {
         display: inline-block;
         padding-right: 5px;
         list-style: none;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: #fff;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5vw;
+        align-items: center;
+
+        h4{
+            font-size: 0.7rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #fff;
+        }
+        a{
+            img {
+                width: 4.2vw;
+                height: 3vh;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    footer{
+        grid-row: 5 / 6;
+        grid-column: 1 / 4;
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+
+        li {
+            display: inline-block;
+            padding-right: 5px;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+       .redes {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5vw;
+        align-items: center;
+
+        h4{
+            font-size: 0.9rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #fff;
+        }
+        a{
+            img {
+                width: 2.2vw;
+                height: 3.5vh;
+            }
+        }
+    }
+}
 }

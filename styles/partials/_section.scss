@@ -9,6 +9,19 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.imagenes{
+    grid-area: 2 / 4;
+    grid-column: 1 / 2;
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
 @media only screen and (min-width:1200px){
     .info{
         grid-column: 1 / 4;
@@ -20,4 +33,18 @@
         height: 40vh;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
+    .imagenes{
+        grid-area: 2 / 4;
+        grid-column: 1 / 2;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 50vw;
+            height: 50vh;
+        }
+    }
+
 }
