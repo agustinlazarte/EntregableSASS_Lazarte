@@ -7,18 +7,26 @@ footer{
     align-items: center;
     background-color: black;
 
-    li {
-        display: inline-block;
-        padding-right: 5px;
-        list-style: none;
+    
+    .list-footer{
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 0.8rem;
+            font-family: $tipografia-footer-header;
+            color: #fff;
+        }
+        li{
+            font-size: 0.7rem;
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: $tipografia-footer-header;
+        }
     }
-
-    a {
-        text-decoration: none;
-        color: #fff;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-
+    
     .redes {
         display: flex;
         flex-direction: column;
@@ -27,7 +35,7 @@ footer{
 
         h4{
             font-size: 0.7rem;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: $tipografia-footer-header;
             color: #fff;
         }
         a{
@@ -49,16 +57,27 @@ footer{
         align-items: center;
         background-color: black;
 
-        li {
-            display: inline-block;
-            padding-right: 5px;
-            list-style: none;
-        }
-
         a {
             text-decoration: none;
             color: #fff;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family:$tipografia-footer-header;
+            &:hover{
+                transition: all 0.8s;
+                color: rgba(0, 255, 110, 0.768);
+            }
+        }
+
+        .list-footer{
+            display: flex;
+            flex-direction: column;
+            h4{
+                font-size: 0.8rem;
+                font-family: $tipografia-footer-header;
+                color: #fff;
+            }
+            li{
+                font-size: 0.7rem;
+            }
         }
 
        .redes {
@@ -69,13 +88,13 @@ footer{
 
         h4{
             font-size: 0.9rem;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: $tipografia-footer-header;
             color: #fff;
         }
         a{
             img {
-                width: 2.2vw;
-                height: 3.5vh;
+                width: 1.2vw;
+                height: 2.5vh;
             }
         }
     }

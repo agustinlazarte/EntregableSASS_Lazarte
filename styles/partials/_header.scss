@@ -27,7 +27,7 @@ header{
             display: inline-block;
             list-style: none;
             padding: 10px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: $tipografia-footer-header;
             
             &:hover{
                 transition: all 0.8s;
@@ -70,7 +70,7 @@ header{
                 display: inline-block;
                 list-style: none;
                 padding: 10px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-family: $tipografia-footer-header;
                 
                 &:hover{
                     transition: all 0.8s;
