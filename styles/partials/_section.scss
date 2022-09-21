@@ -1,0 +1,23 @@
+.info{
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+    height: 40vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (min-width:1200px){
+    .info{
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        padding: 15px;
+        height: 40vh;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
