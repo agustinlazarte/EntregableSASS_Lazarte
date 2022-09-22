@@ -28,11 +28,6 @@ header{
             list-style: none;
             padding: 10px;
             font-family: $tipografia-footer-header;
-            
-            &:hover{
-                transition: all 0.8s;
-                color: rgba(0, 255, 110, 0.768);
-            }
         }
     
         a{
@@ -43,6 +38,17 @@ header{
 
 }
 
+@media only screen and (min-width:768px) and (orientation:landscape){
+    
+    header{
+        nav{
+            img{
+                width: 12vw;
+                height: 18vh;
+            }
+        }
+}
+}
 @media only screen and (min-width:1200px) {
     header{
         display: flex;

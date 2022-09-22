@@ -22,6 +22,21 @@
     }
 }
 
+@media only screen and (max-width:1200px) and (orientation:landscape){
+    .imagenes{
+        grid-area: 2 / 4;
+        grid-column: 1 / 2;
+        height: 280vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 100vw;
+            height: 70vh;
+        }
+    }
+}
+
 @media only screen and (min-width:1200px){
     .info{
         grid-column: 1 / 4;

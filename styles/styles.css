@@ -21,6 +21,13 @@ body {
   grid-template-rows: 14vh auto auto auto 18vh;
 }
 
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .index {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 18vh auto auto auto 18vh;
+  }
+}
 @media only screen and (min-width: 1200px) {
   body {
     background-color: rgba(0, 0, 0, 0.606);
@@ -67,15 +74,17 @@ header nav li {
   padding: 10px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-header nav li:hover {
-  transition: all 0.8s;
-  color: rgba(0, 255, 110, 0.768);
-}
 header nav a {
   text-decoration: none;
   color: #fff;
 }
 
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  header nav img {
+    width: 12vw;
+    height: 18vh;
+  }
+}
 @media only screen and (min-width: 1200px) {
   header {
     display: flex;
@@ -122,6 +131,17 @@ header nav a {
   height: 30vh;
 }
 
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
+  .carrusel {
+    grid-row: span 2/span 3;
+    grid-column: 1/4;
+    margin-top: 15px;
+  }
+  .carrusel img {
+    width: 100vw;
+    height: 50vh;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .carrusel {
     grid-row: span 2/span 3;
@@ -157,6 +177,20 @@ header nav a {
   height: 50vh;
 }
 
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
+  .imagenes {
+    grid-area: 2/4;
+    grid-column: 1/2;
+    height: 280vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagenes img {
+    width: 100vw;
+    height: 70vh;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .info {
     grid-column: 1/4;
@@ -219,11 +253,23 @@ footer .redes h4 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #fff;
 }
+footer .redes a {
+  text-decoration: none;
+}
 footer .redes a img {
   width: 4.2vw;
   height: 3vh;
 }
 
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .redes div a {
+    text-decoration: none;
+  }
+  .redes div a img {
+    width: 2.2vw;
+    height: 4vh;
+  }
+}
 @media only screen and (min-width: 1200px) {
   footer {
     grid-row: 5/6;
