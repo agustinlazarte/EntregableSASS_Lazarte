@@ -3,10 +3,10 @@
     grid-row: 4 / 5;
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: map-get($fonts, color-letra);
     padding: 10px;
     height: 40vh;
-    font-family: $tipografia-section;
+    font-family: map-get($fonts ,tipografia-section);
 }
 
 .imagenes{
@@ -43,10 +43,10 @@
         grid-row: 4 / 5;
         display: flex;
         justify-content: center;
-        color: #fff;
+        color: map-get($fonts, color-letra);
         padding: 15px;
         height: 40vh;
-        font-family:$tipografia-section;
+        font-family:map-get($fonts ,tipografia-section);
     }
 
     .imagenes{

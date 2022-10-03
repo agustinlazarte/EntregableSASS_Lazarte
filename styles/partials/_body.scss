@@ -4,9 +4,9 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.606);
+    background-color: map-get($backgrounds, backgroundBody);
     overflow-x: hidden;
-    font-size: 0.7rem;
+    font-size: map-get($fonts, fontsSizeBodyMobile);
 }
 
 .index{
@@ -32,9 +32,9 @@ body{
 @media only screen and (min-width:1200px){
     
     body{
-        background-color: rgba(0, 0, 0, 0.606);
+        background-color: map-get($backgrounds, backgroundBody);
         overflow-x: hidden;
-        font-size: 1rem;
+        font-size: map-get($fonts, fontsSizeBodyDesktop);
     }
 
     .index{
@@ -48,6 +48,12 @@ body{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 18vh auto auto auto 18vh;
 }
+
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 18vh auto 18vh;
+    }
 }
 
 

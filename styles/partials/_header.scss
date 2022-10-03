@@ -5,7 +5,7 @@ header{
     align-items: center;
     grid-row: 1 / 2;
     grid-column: 1 / 4;
-    background-color: black;
+    background-color: map-get($backgrounds, backgroundHeaderFooter);
 
     nav{
         display: flex;
@@ -27,12 +27,12 @@ header{
             display: inline-block;
             list-style: none;
             padding: 10px;
-            font-family: $tipografia-footer-header;
+            font-family: map-get($fonts ,tipografia-footer-header);
         }
     
         a{
             text-decoration: none;
-            color: #fff;
+            color: map-get($fonts, color-letra);
         }
     }
 
@@ -76,17 +76,17 @@ header{
                 display: inline-block;
                 list-style: none;
                 padding: 10px;
-                font-family: $tipografia-footer-header;
+                font-family: map-get($fonts ,tipografia-footer-header);
                 
                 &:hover{
                     transition: all 0.8s;
-                    color: rgba(0, 255, 110, 0.768);
+                    color: map-get($fonts, fontsHover);
                 }
             }
         
             a{
                 text-decoration: none;
-                color: #fff;
+                color: map-get($fonts, color-letra);
             }
         }
     

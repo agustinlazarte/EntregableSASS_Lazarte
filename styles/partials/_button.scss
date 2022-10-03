@@ -1,0 +1,16 @@
+.boton-uno{
+    @extend %botones;
+    background-color: rgba(0, 0, 0, 0.259);
+}
+
+.boton-dos{
+    @extend %botones;
+    background-color:rgba(0, 0, 0, 0.633);
+    color: map-get($fonts, color-letra);
+}
+
+.boton-tres{
+    @extend %botones;
+    background-color: rgba(0, 0, 0, 0.633);
+    color: map-get($fonts, color-letra);
+}
