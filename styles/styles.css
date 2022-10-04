@@ -1,8 +1,11 @@
-.boton-tres, .boton-dos, .boton-uno {
+.cajaDos, .cajaUno {
   border: 2px solid #000;
-  width: 10vw;
-  height: 6vh;
+  width: 100vw;
+  height: 15vh;
   font-family: Impact;
+  margin: 10px 0px 10px 0px;
+  color: #fff;
+  padding: 5px;
 }
 
 * {
@@ -50,11 +53,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 18vh auto auto auto 18vh;
-  }
-  .formulario {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 18vh auto 18vh;
   }
 }
 header {
@@ -134,17 +132,30 @@ header nav a {
   }
 }
 .boton-uno {
-  background-color: rgba(0, 0, 0, 0.259);
+  border: 2px solid #000;
+  width: 18vw;
+  height: 6vh;
+  font-family: Impact;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.633);
 }
 
 .boton-dos {
-  background-color: rgba(0, 0, 0, 0.633);
+  border: 2px solid #000;
+  width: 18vw;
+  height: 6vh;
+  font-family: Impact;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.633);
 }
 
 .boton-tres {
-  background-color: rgba(0, 0, 0, 0.633);
+  border: 2px solid #000;
+  width: 18vw;
+  height: 6vh;
+  font-family: Impact;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.633);
 }
 
 .carrusel {
@@ -348,7 +359,7 @@ footer .redes a img {
   flex-flow: column;
   align-items: center;
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 .divForm .form {
   width: 60vw;
@@ -361,4 +372,33 @@ footer .redes a img {
 }
 .divForm textarea {
   margin-top: 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .divForm {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+  }
+  .divForm .form {
+    width: 60vw;
+  }
+  .divForm input {
+    margin: 15px 0px 15px 0px;
+  }
+  .divForm h3 {
+    color: #fff;
+  }
+  .divForm textarea {
+    margin-top: 10px;
+  }
+}
+.cajaUno {
+  background-color: rgb(19, 3, 73);
+}
+
+.cajaDos {
+  background-color: rgb(255, 51, 0);
 }/*# sourceMappingURL=styles.css.map */

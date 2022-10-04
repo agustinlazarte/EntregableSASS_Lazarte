@@ -3,7 +3,7 @@
     flex-flow: column;
     align-items: center;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
         .form{
             width: 60vw;
         }
@@ -18,3 +18,26 @@
         }
 
 }
+
+@media only screen and (min-width:1200px) {
+        .divForm{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            width: 100vw;
+            height: 70vh;
+                .form{
+                    width: 60vw;
+                }
+                input{
+                    margin: 15px 0px 15px 0px ;
+                }
+                h3{
+                    color: map-get($fonts, color-letra);
+                }
+                textarea{
+                    margin-top: 10px;
+                }
+
+        }
+    }

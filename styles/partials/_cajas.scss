@@ -1,0 +1,11 @@
+.cajaUno{
+    @extend %cajas;
+    background-color: rgb(19, 3, 73);
+}
+
+.cajaDos{
+    @extend %cajas;
+    background-color:rgb(255, 51, 0);
+}
+
+

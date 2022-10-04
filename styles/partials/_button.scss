@@ -1,16 +1,11 @@
 .boton-uno{
-    @extend %botones;
-    background-color: rgba(0, 0, 0, 0.259);
+    @include botonesMobile($colorMobile:#fff, $colorBack:rgba(0, 0, 0, 0.633),)
 }
 
 .boton-dos{
-    @extend %botones;
-    background-color:rgba(0, 0, 0, 0.633);
-    color: map-get($fonts, color-letra);
+    @include botonesMobile($colorMobile:#fff, $colorBack:rgba(0, 0, 0, 0.633),)
 }
 
 .boton-tres{
-    @extend %botones;
-    background-color: rgba(0, 0, 0, 0.633);
-    color: map-get($fonts, color-letra);
+    @include botonesMobile($colorMobile:#fff, $colorBack:rgba(0, 0, 0, 0.633),)
 }
