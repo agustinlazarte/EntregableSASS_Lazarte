@@ -167,6 +167,9 @@ header nav a {
   width: 100vw;
   height: 30vh;
 }
+.carrusel h1 {
+  color: #fff;
+}
 
 @media only screen and (max-width: 1200px) and (orientation: landscape) {
   .carrusel {
@@ -197,7 +200,7 @@ header nav a {
   justify-content: center;
   color: #fff;
   padding: 10px;
-  height: 40vh;
+  height: 50vh;
   font-family: "Gill Sans";
 }
 
