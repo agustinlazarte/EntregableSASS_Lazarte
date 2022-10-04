@@ -137,7 +137,7 @@ header nav a {
   height: 6vh;
   font-family: Impact;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.633);
+  background-color: rgba(0, 0, 0, 0.893);
 }
 
 .boton-dos {
@@ -200,7 +200,7 @@ header nav a {
   justify-content: center;
   color: #fff;
   padding: 10px;
-  height: 50vh;
+  height: 60vh;
   font-family: "Gill Sans";
 }
 
